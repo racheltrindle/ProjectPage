@@ -1,110 +1,50 @@
-h1{color: rgb(16, 150, 136)}
-
-.navbar {background-color: white;}
-
+/* 
 .navbar a {color: black;
   margin-right: 200px;
 }
 
-.navbar h3 a {
-  color: rgb(16, 150, 136);
-  font-size: 40px;}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:#f9f9f9;;
-  text-decoration: none;
-  min-width: 10px;
-  z-index: 1;}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  overflow:auto ;
-  width:100%;}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  margin-right: 10px;}
-
-div.col-md-9 {
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  text-align: absolute;
-  background-color: white;
-  margin-right: 100px;
-} 
-
-div.col-md-9 p1 {
-  position: absolute;
-}
-
-div.col-md-12 h1 p1{background-color: white;}
-
-div.col-md-12 img {
-float:center;
-text-align: absolute;
-padding-top: 20px;
-padding-right:20px;
-padding-left:20px;
-margin-right:50px;
-margin-left:70px;
-background-color:white;} 
-
-div.col-md-12 h1 {
-text-align:center;
-background-color:white;
-color: rgb(16, 150, 136);
-padding-bottom: 20px;}
-
-div.col-md-3 h2 {
-text-align:center;
-background-color:white;
-color: rgb(16, 150, 136);
-padding-bottom: 20px;}
-
-div.col-md-3 {
-margin-top: 50px;
-padding-top: 15px;
-padding-bottom: 200px;
-padding-right:20px;
-padding-left:20px;
-text-align: center;
+h1 {font: black;
 background-color: white;
-border-color: #f9f9f9; 
-margin-right: -150px;
-}
+padding: 10px;
+font-family: sans-serif;}
 
-table {
-  background:white;
-  table-layout: auto;
-  text-align: center;
-  margin-left: 300px;
-}
-thead {
-  background: white;
-}
 
-h5 {
-  background: White;
-  color:rgb(16, 150, 136);
-  text-align: center;
-  font-size: 100px;
-}
-@media(max-width: 600px)
-@media print {
-    body, h1, h2, h3, ol, ul, div, span, p {
-        display: block !important;
-        width: auto !important;
-        float: none !important;
-        position: static !important;
-        overflow: visible !important;
+h2 {padding-left: 100 ;} */
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
     }
-
-    ...
-    ...
-}
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
